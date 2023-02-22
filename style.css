@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 870px;
+    background-color: #23252C;
+    color: #DCDCDC;
+    font-family: inter;
+    
+}
+
+.card--avi {
+    width: 317px;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    
+}
+
+.contact {
+    width: 317px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1A1B21;
+    padding: 2rem;
+}
+
+.contact > h1 {
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.contact > h3 {
+    font-weight: 400;
+    color: #F3BF99;
+    font-size: 13px;
+    margin-top: 0.3rem;
+}
+
+.contact > p {
+    font-size: 10px;
+    margin-top: 0.8rem;
+}
+
+.btn > button{
+    margin-top: 01rem;
+    height: 35px;
+    width: 115px;
+    border: none;
+    border-radius: 0.3rem;
+}
+
+.btn-email {
+    margin-right: 1rem;
+    background-color: #ffffff;
+    color: #374151;
+}
+
+.btn-email > i {
+    margin-right: 0.5rem;
+}
+
+.btn-twitter {
+    background-color: #5093E2;
+    color: #FFFFFF;
+}
+
+.btn-twitter > i {
+    margin-right: 0.5rem;
+}
+
+
+.about {
+    width: 317px;
+    height: 190px;
+    background-color: #1A1B21;
+    padding: 1rem 2.2rem;
+    line-height: 0.9rem
+}
+
+.about--title {
+    font-size: 16px;
+    margin-bottom: 0.5rem;
+}
+
+.about--text {
+    font-size: 10px;
+    margin-bottom: 1rem;
+}
+
+footer {
+    width: 317px;
+    height: 60px;
+    background-color: #161619;
+    border-bottom-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer > i {
+    margin: 0 0.7rem;
+}
